@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Home - Power Appliances </title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="script.js"> </script>
+    </head>
     <body>
-        <h2> My First JavaScript</h2>
-        <button type = "button"
-        onclick="document.getElementById('demo').innerHTML = Date()">
-        Click me to display Date and Time.
-    </button>
-    <p id="demo"> </p>
+       <header>
+            <nav>
+                <a href = "index.html" class="logo">
+                    <img src="image/PowerIcon.png" alt="Power Logo">
+                </a>
+                <ul>
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="televisions.html" class="nav-link">Televisions</a></li>
+                    <li><a href ="about.html" class="nav-link">About Us</a></li>
+                </ul>
+            </nav>
+       </header>
+       <main>
+        <h1> Welcome to Power Appliances</h1>
+        <p>
+            Save energy, save money, save the planet.
+            Choose appliances with higher star ratings-Together, We can make a difference!
+        </p>
+        <p> 
+            Explore our site to learn more about the energy consumption of televisions
+        </p>
+       </main>
+
+       <footer>
+        <p>&copy; <span id="year"></span>Sharlene Lim Khai Xing. Assisted by ChatGPT.</p>
+       </footer>
     </body>
 </html>
