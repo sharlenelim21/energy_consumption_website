@@ -18,7 +18,6 @@ main h1 {
     font-size: 2.5em;
     color: #6E4D2B; /* brown to match logo */
     margin-bottom: 20px;
-    text-align: center;
 }
 
 /* Paragraph styling inside main */
@@ -27,7 +26,6 @@ main p {
     font-size: 1.1em;
     line-height: 1.8;  /* increases line spacing */
     margin-bottom: 25px; /* larger gap between paragraphs */
-    text-align: center;  /* optional: center align text */
 }
 
 
