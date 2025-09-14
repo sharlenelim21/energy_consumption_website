@@ -43,8 +43,19 @@ body {
 
 /* Footer */
 footer {
+    background-color: #6E4D2B; /* same brown as navbar */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-container {
+    background-color: #FCEFB4; /* light yellow box */
+    color: #6E4D2B;            /* brown text */
+    padding: 10px 20px;
+    border-radius: 8px;
     text-align: center;
-    padding: 10px;
-    background-color: #f2f2f2;
-    margin-top: 20px;
+    max-width: 600px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
