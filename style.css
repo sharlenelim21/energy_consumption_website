@@ -86,7 +86,7 @@ main p {
 
 .energy-table th {
     background-color: #6E4D2B; /* brown header */
-    color: #FCEFB4;           /* light yellow text */
+    color:  #f9f9f9;           /* light yellow text */
     padding: 12px;
 }
 
