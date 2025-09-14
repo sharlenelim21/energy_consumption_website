@@ -12,6 +12,25 @@ main {
     flex: 1;
 }
 
+/* Special heading font for welcome message */
+main h1 {
+    font-family: 'Garamond', serif; 
+    font-size: 2.5em;
+    color: #6E4D2B; /* brown to match logo */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Paragraph styling inside main */
+main p {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.1em;
+    line-height: 1.8;  /* increases line spacing */
+    margin-bottom: 25px; /* larger gap between paragraphs */
+    text-align: center;  /* optional: center align text */
+}
+
+
 /* Top navigation */
 .topnav {
     overflow: hidden;
