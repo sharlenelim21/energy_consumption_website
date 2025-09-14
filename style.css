@@ -8,7 +8,7 @@ body {
 /* Top navigation */
 .topnav {
     overflow: hidden;
-    background-color: #004080; /* Example blue from logo */
+    background-color: #6E4D2B; 
 }
 
 .topnav a {
@@ -22,12 +22,12 @@ body {
 }
 
 .topnav a:hover {
-    background-color: #66a3ff; /* lighter hover effect */
+    background-color: #E59C2D; 
     color: black;
 }
 
 .topnav a.active {
-    background-color: #ffcc00; /* highlight active link */
+    background-color: #FCEFB4; 
     color: black;
 }
 
