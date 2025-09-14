@@ -96,8 +96,8 @@ main p {
     color: #333;
 }
 
-.energy-table tr:nth-child(even) {
-    background-color: #f9f9f9; /* light striping */
+.energy-table tr {
+    background-color: #f9f9f9; 
 }
 
 .energy-table tr:hover {
