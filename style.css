@@ -10,6 +10,12 @@ html, body {
 /* Main content should grow to push footer down */
 main {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    padding: 20px;
 }
 
 /* Special heading font for welcome message */
