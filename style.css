@@ -32,8 +32,8 @@ main h1 {
 main p {
     font-family: Helvetica, sans-serif;
     font-size: 1.1em;
-    line-height: 1.5;  /* increases line spacing */
-    margin-bottom: 20px; /* larger gap between paragraphs */
+    line-height: 1.0;  /* increases line spacing */
+    margin-bottom: 12px; /* larger gap between paragraphs */
     text-align: center;  /* optional: center align text */
 }
 
