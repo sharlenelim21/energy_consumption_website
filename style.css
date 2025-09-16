@@ -1,4 +1,3 @@
-/* General styles */
 /* Make sure footer stays at bottom */
 html, body {
     height: 100%;
@@ -19,24 +18,22 @@ main {
     background-color: #FFF8DC;
 }
 
-/* Special heading font for welcome message */
 main h1 {
     font-family: 'Garamond', serif; 
     font-size: 50px;
-    color: #6E4D2B; /* brown to match logo */
+    color: #6E4D2B; 
     margin-bottom: 20px;
 }
 
-/* Paragraph styling inside main */
 main p {
     font-family: 'Helvetica', sans-serif;
     font-size: 1.1em;
-    line-height: 1.0;  /* increases line spacing */
-    margin-bottom: 12px; /* larger gap between paragraphs */
+    line-height: 1.0; 
+    margin-bottom: 12px; 
 }
 
 
-/* Top navigation */
+/* Navigation Bar*/
 .topnav {
     overflow: hidden;
     background-color: #6E4D2B; 
@@ -67,12 +64,10 @@ main p {
     vertical-align: middle;
 }
 
-/* Responsive menu icon */
 .topnav .icon {
     display: none;
 }
 
-/* Energy table styling */
 .energy-table {
     width: 80%;
     margin: 20px auto;
@@ -83,8 +78,8 @@ main p {
 }
 
 .energy-table th {
-    background-color: #6E4D2B; /* brown header */
-    color:  #f9f9f9;           /* light yellow text */
+    background-color: #6E4D2B; 
+    color:  #f9f9f9;          
     padding: 12px;
 }
 
@@ -99,14 +94,14 @@ main p {
 }
 
 .energy-table tr:hover {
-    background-color: #E59C2D; /* orange hover */
+    background-color: #E59C2D;
     color: white;
 }
 
 
 /* Footer */
 footer {
-    background-color: #6E4D2B; /* same brown as navbar */
+    background-color: #6E4D2B; 
     padding: 20px 0;
     display: flex;
     justify-content: center;
@@ -114,8 +109,8 @@ footer {
 }
 
 footer .footer-container {
-    background-color: #FCEFB4; /* light yellow box */
-    color: #6E4D2B;            /* brown text */
+    background-color: #FCEFB4; 
+    color: #6E4D2B;          
     padding: 10px 20px;
     border-radius: 8px;
     text-align: center;
