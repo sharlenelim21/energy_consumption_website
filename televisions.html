@@ -8,19 +8,19 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-        <div class="topnav" id="myTopnav">
-            <a href="index.html" class="logo">
-                <img src="image/PowerIcon.png" alt="Power Appliances Logo">
-            </a>
-            <a href="index.html">Home</a>
-            <a href="televisions.html" class="active">Televisions</a>
-            <a href="aboutus.html">About Us</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
-        </div>
-    </header>
+     <header>
+    <div class="topnav" id="myTopnav">
+      <a href="javascript:void(0);" class="logo" onclick="navigateTo('index.html')">
+        <img src="image/PowerIcon.png" alt="Power Appliances Logo">
+      </a>
+      <a href="javascript:void(0);" class="active" onclick="navigateTo('index.html')">Home</a>
+      <a href="javascript:void(0);" onclick="navigateTo('televisions.html')">Televisions</a>
+      <a href="javascript:void(0);" onclick="navigateTo('aboutus.html')">About Us</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </header>
     <main>
         <h1>Televisions</h1>
         <p>Televisions in Australia also show significant differences in energy consumption based on size and display type.  
